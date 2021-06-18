@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: chocolate;
 }
 
 a {
@@ -19,4 +20,49 @@ a {
     text-decoration: none;
     color: black;
     background-color: cornflowerblue;
+    margin-bottom: 10em;
+}
+
+#photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img {
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 50px 0 50px;
+    padding: 10px 20px 30px 20px;
+}
+
+#bear1 {
+
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(380deg) scale(1.0);
+    z-index: 10;
+}
+
+#cat1 {
+
+    -webkit-transform: rotate(380deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(10deg) scale(1.5);
+    z-index: 10;
+}
+
+#bear2 {
+
+    -webkit-transform: rotate(100deg) scale(1.5);
+    -moz-transform: rotate(380deg) scale(1.5);
+    -o-transform: rotate(380deg) scale(1.5);
+    transform: rotate(-10deg) scale(1.5);
+    z-index: 10;
 }
